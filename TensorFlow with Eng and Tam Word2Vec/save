@@ -1,0 +1,100 @@
+Script started on Sunday 07 August 2016 01:55:10 PM IST
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ script -h
+
+Usage:
+ script [options] [file]
+
+Make a typescript of a terminal session.
+
+Options:
+ -a, --append            append the output
+ -c, --command <command> run command rather than interactive shell
+ -e, --return            return exit code of the child process
+ -f, --flush             run flush after each write
+     --force             use output file even when it is a link
+ -q, --quiet             be quiet
+ -t, --timing[=<file>]   output timing data to stderr (or to FILE)
+ -V, --version           output version information and exit
+ -h, --help              display this help and exit
+
+
+For more details see script(1).
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ script -h f
+Script started, file is typescript
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ reset
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ resetcat tuning.log [10Preset[Kscript -f
+Script started, file is typescript
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith E    worship         a man                       christian people worship jesus crh  hrist
+மக்கள் _UNK _UNK .
+> ^CTraceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/src/translate.py", line 324, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 30, in run
+    sys.exit(main(sys.argv))
+  File "/home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/src/translate.py", line 319, in main
+    decode()
+  File "/home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/src/translate.py", line 293, in decode
+    sentence = sys.stdin.readline()
+KeyboardInterrupt
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ .app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 30, in run
+    sys.exit(main(sys.argv))
+  File "/home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/src/translate.py", line 319, in main
+    decode()
+  File "/home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/src/translate.py", line 293, in decode
+    sentence = sys.stdin.readline()
+KeyboardInterrupt
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$  exit code of the child process
+ -f, --flush             run flush after each write
+     --force             use output file even when it is a link
+ -q, --quiet             be quiet
+ -t, --timing[=<file>]   output timing data to stderr (or to FILE)
+ -V, --version           output version information and exit
+ -h, --help              display this help and exit
+
+
+For more details see script(1).
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ script -h f
+Script started, file is typescript
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ reset
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ resetcat tuning.log [10Preset[Kscript -f
+Script started, file is typescript
+]0;hans@hans-Lenovo-IdeaPad-Y500: ~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec[01;32mhans@hans-Lenovo-IdeaPad-Y500[00m:[01;34m~/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow w
+ith Eng and Tam Word2Vec[00m$ python -m src.translate --data_dir /home/hans/Document s/MAC/SUCCESSFUL\ MODELS/ADD/Tensorflow\ with\ Eng\ and\ Tam\ Word2Vec/ --decode  --train_dir /home/hans/Documents/MAC/SUCCESSFUL\ MODELS/ADD/Tensorflow\ with\ E ng\ and\ Tam\ Word2Vec/checkpoints/ --en_vocab_size=75000 --fr_vocab_size=50000  --size=325 --batch_size=32 --num_layers=3 --steps_per_checkpoint=500
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: GeForce GT 650M
+major: 3 minor: 0 memoryClockRate (GHz) 0.835
+pciBusID 0000:01:00.0
+Total memory: 1.95GiB
+Free memory: 1.83GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:755] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GT 650M, pci bus id: 0000:01:00.0)
+Reading model parameters from /home/hans/Documents/MAC/SUCCESSFUL MODELS/ADD/Tensorflow with Eng and Tam Word2Vec/checkpoints/translate.ckpt-108500
+> what are the best forms of                            jesus christ is t the lord        worship         a man                       christian people worship jesus crh  hrist
+மக்கள் _UNK _UNK .
+> ^CTraceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_glob

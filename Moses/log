@@ -1,0 +1,903 @@
+Forking...
+
+***** 2 runs. (algorithm:TA)*****
+;KategProblem:cats: 50   words: 49822
+
+start-costs: MEAN: 2.96907e+07 (2.96833e+07-2.96981e+07)  SIGMA:7445.1   
+  end-costs: MEAN: 2.81953e+07 (2.819e+07-2.82005e+07)  SIGMA:5221.72   
+   start-pp: MEAN: 871.894 (868.734-875.053)  SIGMA:3.15977   
+     end-pp: MEAN: 421.041 (419.971-422.112)  SIGMA:1.07019   
+ iterations: MEAN: 1.30664e+06 (1.24494e+06-1.36834e+06)  SIGMA:61700   
+       time: MEAN: 109.658 (105.248-114.068)  SIGMA:4.41   
+
+***** 2 runs. (algorithm:TA)*****
+;KategProblem:cats: 50   words: 206611
+
+start-costs: MEAN: 2.01222e+07 (2.01213e+07-2.01231e+07)  SIGMA:869.777   
+  end-costs: MEAN: 1.8696e+07 (1.86862e+07-1.87057e+07)  SIGMA:9756.71   
+   start-pp: MEAN: 12878.1 (12870.2-12886)  SIGMA:7.87649   
+     end-pp: MEAN: 4723.99 (4691.58-4756.4)  SIGMA:32.41   
+ iterations: MEAN: 5.6328e+06 (5.2243e+06-6.0413e+06)  SIGMA:408502   
+       time: MEAN: 393.716 (357.796-429.636)  SIGMA:35.92   
+Waiting for mkcls processes to finish...
+/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/giza-pp/bin/snt2cooc.out /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt > /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en.cooc
+/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/giza-pp/bin/snt2cooc.out /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt > /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta.cooc
+/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/giza-pp/bin/GIZA++  -CoocurrenceFile /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta.cooc -c /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt -m1 5 -m2 0 -m3 3 -m4 3 -model1dumpfrequency 1 -model4smoothfactor 0.4 -nodumps 1 -nsmooth 4 -o /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta -onlyaldumps 1 -p0 0.999 -s /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb -t /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb
+Parameter 'coocurrencefile' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta.cooc'
+Parameter 'c' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt'
+Parameter 'm3' changed from '5' to '3'
+Parameter 'm4' changed from '5' to '3'
+Parameter 'model1dumpfrequency' changed from '0' to '1'
+Parameter 'model4smoothfactor' changed from '0.2' to '0.4'
+Parameter 'nodumps' changed from '0' to '1'
+Parameter 'nsmooth' changed from '64' to '4'
+Parameter 'o' changed from '2016-08-05.212905.hans' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta'
+Parameter 'onlyaldumps' changed from '0' to '1'
+Parameter 'p0' changed from '-1' to '0.999'
+Parameter 's' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb'
+Parameter 't' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb'
+general parameters:
+-------------------
+ml = 101  (maximum sentence length)
+
+No. of iterations:
+-------------------
+hmmiterations = 5  (mh)
+model1iterations = 5  (number of iterations for Model 1)
+model2iterations = 0  (number of iterations for Model 2)
+model3iterations = 3  (number of iterations for Model 3)
+model4iterations = 3  (number of iterations for Model 4)
+model5iterations = 0  (number of iterations for Model 5)
+model6iterations = 0  (number of iterations for Model 6)
+
+parameter for various heuristics in GIZA++ for efficient training:
+------------------------------------------------------------------
+countincreasecutoff = 1e-06  (Counts increment cutoff threshold)
+countincreasecutoffal = 1e-05  (Counts increment cutoff threshold for alignments in training of fertility models)
+mincountincrease = 1e-07  (minimal count increase)
+peggedcutoff = 0.03  (relative cutoff probability for alignment-centers in pegging)
+probcutoff = 1e-07  (Probability cutoff threshold for lexicon probabilities)
+probsmooth = 1e-07  (probability smoothing (floor) value )
+
+parameters for describing the type and amount of output:
+-----------------------------------------------------------
+compactalignmentformat = 0  (0: detailled alignment format, 1: compact alignment format )
+hmmdumpfrequency = 0  (dump frequency of HMM)
+l = 2016-08-05.212905.hans.log  (log file name)
+log = 0  (0: no logfile; 1: logfile)
+model1dumpfrequency = 1  (dump frequency of Model 1)
+model2dumpfrequency = 0  (dump frequency of Model 2)
+model345dumpfrequency = 0  (dump frequency of Model 3/4/5)
+nbestalignments = 0  (for printing the n best alignments)
+nodumps = 1  (1: do not write any files)
+o = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta  (output file prefix)
+onlyaldumps = 1  (1: do not write any files)
+outputpath =   (output path)
+transferdumpfrequency = 0  (output: dump of transfer from Model 2 to 3)
+verbose = 0  (0: not verbose; 1: verbose)
+verbosesentence = -10  (number of sentence for which a lot of information should be printed (negative: no output))
+
+parameters describing input files:
+----------------------------------
+c = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt  (training corpus file name)
+d =   (dictionary file name)
+s = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb  (source vocabulary file name)
+t = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb  (target vocabulary file name)
+tc =   (test corpus file name)
+
+smoothing parameters:
+---------------------
+emalsmooth = 0.2  (f-b-trn: smoothing factor for HMM alignment model (can be ignored by -emSmoothHMM))
+model23smoothfactor = 0  (smoothing parameter for IBM-2/3 (interpolation with constant))
+model4smoothfactor = 0.4  (smooting parameter for alignment probabilities in Model 4)
+model5smoothfactor = 0.1  (smooting parameter for distortion probabilities in Model 5 (linear interpolation with constant))
+nsmooth = 4  (smoothing for fertility parameters (good value: 64): weight for wordlength-dependent fertility parameters)
+nsmoothgeneral = 0  (smoothing for fertility parameters (default: 0): weight for word-independent fertility parameters)
+
+parameters modifying the models:
+--------------------------------
+compactadtable = 1  (1: only 3-dimensional alignment table for IBM-2 and IBM-3)
+deficientdistortionforemptyword = 0  (0: IBM-3/IBM-4 as described in (Brown et al. 1993); 1: distortion model of empty word is deficient; 2: distoriton model of empty word is deficient (differently); setting this parameter also helps to avoid that during IBM-3 and IBM-4 training too many words are aligned with the empty word)
+depm4 = 76  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+depm5 = 68  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+emalignmentdependencies = 2  (lextrain: dependencies in the HMM alignment model.  &1: sentence length; &2: previous class; &4: previous position;  &8: French position; &16: French class)
+emprobforempty = 0.4  (f-b-trn: probability for empty word)
+
+parameters modifying the EM-algorithm:
+--------------------------------------
+m5p0 = -1  (fixed value for parameter p_0 in IBM-5 (if negative then it is determined in training))
+manlexfactor1 = 0  ()
+manlexfactor2 = 0  ()
+manlexmaxmultiplicity = 20  ()
+maxfertility = 10  (maximal fertility for fertility models)
+p0 = 0.999  (fixed value for parameter p_0 in IBM-3/4 (if negative then it is determined in training))
+pegging = 0  (0: no pegging; 1: do pegging)
+
+general parameters:
+-------------------
+ml = 101  (maximum sentence length)
+
+No. of iterations:
+-------------------
+hmmiterations = 5  (mh)
+model1iterations = 5  (number of iterations for Model 1)
+model2iterations = 0  (number of iterations for Model 2)
+model3iterations = 3  (number of iterations for Model 3)
+model4iterations = 3  (number of iterations for Model 4)
+model5iterations = 0  (number of iterations for Model 5)
+model6iterations = 0  (number of iterations for Model 6)
+
+parameter for various heuristics in GIZA++ for efficient training:
+------------------------------------------------------------------
+countincreasecutoff = 1e-06  (Counts increment cutoff threshold)
+countincreasecutoffal = 1e-05  (Counts increment cutoff threshold for alignments in training of fertility models)
+mincountincrease = 1e-07  (minimal count increase)
+peggedcutoff = 0.03  (relative cutoff probability for alignment-centers in pegging)
+probcutoff = 1e-07  (Probability cutoff threshold for lexicon probabilities)
+probsmooth = 1e-07  (probability smoothing (floor) value )
+
+parameters for describing the type and amount of output:
+-----------------------------------------------------------
+compactalignmentformat = 0  (0: detailled alignment format, 1: compact alignment format )
+hmmdumpfrequency = 0  (dump frequency of HMM)
+l = 2016-08-05.212905.hans.log  (log file name)
+log = 0  (0: no logfile; 1: logfile)
+model1dumpfrequency = 1  (dump frequency of Model 1)
+model2dumpfrequency = 0  (dump frequency of Model 2)
+model345dumpfrequency = 0  (dump frequency of Model 3/4/5)
+nbestalignments = 0  (for printing the n best alignments)
+nodumps = 1  (1: do not write any files)
+o = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.en-ta/en-ta  (output file prefix)
+onlyaldumps = 1  (1: do not write any files)
+outputpath =   (output path)
+transferdumpfrequency = 0  (output: dump of transfer from Model 2 to 3)
+verbose = 0  (0: not verbose; 1: verbose)
+verbosesentence = -10  (number of sentence for which a lot of information should be printed (negative: no output))
+
+parameters describing input files:
+----------------------------------
+c = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt  (training corpus file name)
+d =   (dictionary file name)
+s = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb  (source vocabulary file name)
+t = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb  (target vocabulary file name)
+tc =   (test corpus file name)
+
+smoothing parameters:
+---------------------
+emalsmooth = 0.2  (f-b-trn: smoothing factor for HMM alignment model (can be ignored by -emSmoothHMM))
+model23smoothfactor = 0  (smoothing parameter for IBM-2/3 (interpolation with constant))
+model4smoothfactor = 0.4  (smooting parameter for alignment probabilities in Model 4)
+model5smoothfactor = 0.1  (smooting parameter for distortion probabilities in Model 5 (linear interpolation with constant))
+nsmooth = 4  (smoothing for fertility parameters (good value: 64): weight for wordlength-dependent fertility parameters)
+nsmoothgeneral = 0  (smoothing for fertility parameters (default: 0): weight for word-independent fertility parameters)
+
+parameters modifying the models:
+--------------------------------
+compactadtable = 1  (1: only 3-dimensional alignment table for IBM-2 and IBM-3)
+deficientdistortionforemptyword = 0  (0: IBM-3/IBM-4 as described in (Brown et al. 1993); 1: distortion model of empty word is deficient; 2: distoriton model of empty word is deficient (differently); setting this parameter also helps to avoid that during IBM-3 and IBM-4 training too many words are aligned with the empty word)
+depm4 = 76  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+depm5 = 68  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+emalignmentdependencies = 2  (lextrain: dependencies in the HMM alignment model.  &1: sentence length; &2: previous class; &4: previous position;  &8: French position; &16: French class)
+emprobforempty = 0.4  (f-b-trn: probability for empty word)
+
+parameters modifying the EM-algorithm:
+--------------------------------------
+m5p0 = -1  (fixed value for parameter p_0 in IBM-5 (if negative then it is determined in training))
+manlexfactor1 = 0  ()
+manlexfactor2 = 0  ()
+manlexmaxmultiplicity = 20  ()
+maxfertility = 10  (maximal fertility for fertility models)
+p0 = 0.999  (fixed value for parameter p_0 in IBM-3/4 (if negative then it is determined in training))
+pegging = 0  (0: no pegging; 1: do pegging)
+
+reading vocabulary files 
+Source vocabulary list has 206612 unique tokens 
+Target vocabulary list has 49823 unique tokens 
+Calculating vocabulary frequencies from corpus /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en-ta-int-train.snt
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+ Train total # sentence pairs (weighted): 119816
+Size of source portion of the training corpus: 1.30227e+06 tokens
+Size of the target portion of the training corpus: 1.93434e+06 tokens 
+In source portion of the training corpus, only 206611 unique tokens appeared
+In target portion of the training corpus, only 49789 unique tokens appeared
+lambda for PP calculation in IBM-1,IBM-2,HMM:= 1.93434e+06/(1.42209e+06-119816)== 1.48536
+There are 10760002 10760002 entries in table
+==========================================================
+Model1 Training Started at: Fri Aug  5 21:29:08 2016
+
+-----------
+Model1: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/giza-pp/bin/GIZA++  -CoocurrenceFile /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en.cooc -c /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt -m1 5 -m2 0 -m3 3 -m4 3 -model1dumpfrequency 1 -model4smoothfactor 0.4 -nodumps 1 -nsmooth 4 -o /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en -onlyaldumps 1 -p0 0.999 -s /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb -t /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb
+Parameter 'coocurrencefile' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en.cooc'
+Parameter 'c' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt'
+Parameter 'm3' changed from '5' to '3'
+Parameter 'm4' changed from '5' to '3'
+Parameter 'model1dumpfrequency' changed from '0' to '1'
+Parameter 'model4smoothfactor' changed from '0.2' to '0.4'
+Parameter 'nodumps' changed from '0' to '1'
+Parameter 'nsmooth' changed from '64' to '4'
+Parameter 'o' changed from '2016-08-05.212912.hans' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en'
+Parameter 'onlyaldumps' changed from '0' to '1'
+Parameter 'p0' changed from '-1' to '0.999'
+Parameter 's' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb'
+Parameter 't' changed from '' to '/home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb'
+general parameters:
+-------------------
+ml = 101  (maximum sentence length)
+
+No. of iterations:
+-------------------
+hmmiterations = 5  (mh)
+model1iterations = 5  (number of iterations for Model 1)
+model2iterations = 0  (number of iterations for Model 2)
+model3iterations = 3  (number of iterations for Model 3)
+model4iterations = 3  (number of iterations for Model 4)
+model5iterations = 0  (number of iterations for Model 5)
+model6iterations = 0  (number of iterations for Model 6)
+
+parameter for various heuristics in GIZA++ for efficient training:
+------------------------------------------------------------------
+countincreasecutoff = 1e-06  (Counts increment cutoff threshold)
+countincreasecutoffal = 1e-05  (Counts increment cutoff threshold for alignments in training of fertility models)
+mincountincrease = 1e-07  (minimal count increase)
+peggedcutoff = 0.03  (relative cutoff probability for alignment-centers in pegging)
+probcutoff = 1e-07  (Probability cutoff threshold for lexicon probabilities)
+probsmooth = 1e-07  (probability smoothing (floor) value )
+
+parameters for describing the type and amount of output:
+-----------------------------------------------------------
+compactalignmentformat = 0  (0: detailled alignment format, 1: compact alignment format )
+hmmdumpfrequency = 0  (dump frequency of HMM)
+l = 2016-08-05.212912.hans.log  (log file name)
+log = 0  (0: no logfile; 1: logfile)
+model1dumpfrequency = 1  (dump frequency of Model 1)
+model2dumpfrequency = 0  (dump frequency of Model 2)
+model345dumpfrequency = 0  (dump frequency of Model 3/4/5)
+nbestalignments = 0  (for printing the n best alignments)
+nodumps = 1  (1: do not write any files)
+o = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en  (output file prefix)
+onlyaldumps = 1  (1: do not write any files)
+outputpath =   (output path)
+transferdumpfrequency = 0  (output: dump of transfer from Model 2 to 3)
+verbose = 0  (0: not verbose; 1: verbose)
+verbosesentence = -10  (number of sentence for which a lot of information should be printed (negative: no output))
+
+parameters describing input files:
+----------------------------------
+c = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt  (training corpus file name)
+d =   (dictionary file name)
+s = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb  (source vocabulary file name)
+t = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb  (target vocabulary file name)
+tc =   (test corpus file name)
+
+smoothing parameters:
+---------------------
+emalsmooth = 0.2  (f-b-trn: smoothing factor for HMM alignment model (can be ignored by -emSmoothHMM))
+model23smoothfactor = 0  (smoothing parameter for IBM-2/3 (interpolation with constant))
+model4smoothfactor = 0.4  (smooting parameter for alignment probabilities in Model 4)
+model5smoothfactor = 0.1  (smooting parameter for distortion probabilities in Model 5 (linear interpolation with constant))
+nsmooth = 4  (smoothing for fertility parameters (good value: 64): weight for wordlength-dependent fertility parameters)
+nsmoothgeneral = 0  (smoothing for fertility parameters (default: 0): weight for word-independent fertility parameters)
+
+parameters modifying the models:
+--------------------------------
+compactadtable = 1  (1: only 3-dimensional alignment table for IBM-2 and IBM-3)
+deficientdistortionforemptyword = 0  (0: IBM-3/IBM-4 as described in (Brown et al. 1993); 1: distortion model of empty word is deficient; 2: distoriton model of empty word is deficient (differently); setting this parameter also helps to avoid that during IBM-3 and IBM-4 training too many words are aligned with the empty word)
+depm4 = 76  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+depm5 = 68  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+emalignmentdependencies = 2  (lextrain: dependencies in the HMM alignment model.  &1: sentence length; &2: previous class; &4: previous position;  &8: French position; &16: French class)
+emprobforempty = 0.4  (f-b-trn: probability for empty word)
+
+parameters modifying the EM-algorithm:
+--------------------------------------
+m5p0 = -1  (fixed value for parameter p_0 in IBM-5 (if negative then it is determined in training))
+manlexfactor1 = 0  ()
+manlexfactor2 = 0  ()
+manlexmaxmultiplicity = 20  ()
+maxfertility = 10  (maximal fertility for fertility models)
+p0 = 0.999  (fixed value for parameter p_0 in IBM-3/4 (if negative then it is determined in training))
+pegging = 0  (0: no pegging; 1: do pegging)
+
+general parameters:
+-------------------
+ml = 101  (maximum sentence length)
+
+No. of iterations:
+-------------------
+hmmiterations = 5  (mh)
+model1iterations = 5  (number of iterations for Model 1)
+model2iterations = 0  (number of iterations for Model 2)
+model3iterations = 3  (number of iterations for Model 3)
+model4iterations = 3  (number of iterations for Model 4)
+model5iterations = 0  (number of iterations for Model 5)
+model6iterations = 0  (number of iterations for Model 6)
+
+parameter for various heuristics in GIZA++ for efficient training:
+------------------------------------------------------------------
+countincreasecutoff = 1e-06  (Counts increment cutoff threshold)
+countincreasecutoffal = 1e-05  (Counts increment cutoff threshold for alignments in training of fertility models)
+mincountincrease = 1e-07  (minimal count increase)
+peggedcutoff = 0.03  (relative cutoff probability for alignment-centers in pegging)
+probcutoff = 1e-07  (Probability cutoff threshold for lexicon probabilities)
+probsmooth = 1e-07  (probability smoothing (floor) value )
+
+parameters for describing the type and amount of output:
+-----------------------------------------------------------
+compactalignmentformat = 0  (0: detailled alignment format, 1: compact alignment format )
+hmmdumpfrequency = 0  (dump frequency of HMM)
+l = 2016-08-05.212912.hans.log  (log file name)
+log = 0  (0: no logfile; 1: logfile)
+model1dumpfrequency = 1  (dump frequency of Model 1)
+model2dumpfrequency = 0  (dump frequency of Model 2)
+model345dumpfrequency = 0  (dump frequency of Model 3/4/5)
+nbestalignments = 0  (for printing the n best alignments)
+nodumps = 1  (1: do not write any files)
+o = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/giza.ta-en/ta-en  (output file prefix)
+onlyaldumps = 1  (1: do not write any files)
+outputpath =   (output path)
+transferdumpfrequency = 0  (output: dump of transfer from Model 2 to 3)
+verbose = 0  (0: not verbose; 1: verbose)
+verbosesentence = -10  (number of sentence for which a lot of information should be printed (negative: no output))
+
+parameters describing input files:
+----------------------------------
+c = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt  (training corpus file name)
+d =   (dictionary file name)
+s = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/en.vcb  (source vocabulary file name)
+t = /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta.vcb  (target vocabulary file name)
+tc =   (test corpus file name)
+
+smoothing parameters:
+---------------------
+emalsmooth = 0.2  (f-b-trn: smoothing factor for HMM alignment model (can be ignored by -emSmoothHMM))
+model23smoothfactor = 0  (smoothing parameter for IBM-2/3 (interpolation with constant))
+model4smoothfactor = 0.4  (smooting parameter for alignment probabilities in Model 4)
+model5smoothfactor = 0.1  (smooting parameter for distortion probabilities in Model 5 (linear interpolation with constant))
+nsmooth = 4  (smoothing for fertility parameters (good value: 64): weight for wordlength-dependent fertility parameters)
+nsmoothgeneral = 0  (smoothing for fertility parameters (default: 0): weight for word-independent fertility parameters)
+
+parameters modifying the models:
+--------------------------------
+compactadtable = 1  (1: only 3-dimensional alignment table for IBM-2 and IBM-3)
+deficientdistortionforemptyword = 0  (0: IBM-3/IBM-4 as described in (Brown et al. 1993); 1: distortion model of empty word is deficient; 2: distoriton model of empty word is deficient (differently); setting this parameter also helps to avoid that during IBM-3 and IBM-4 training too many words are aligned with the empty word)
+depm4 = 76  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+depm5 = 68  (d_{=1}: &1:l, &2:m, &4:F, &8:E, d_{>1}&16:l, &32:m, &64:F, &128:E)
+emalignmentdependencies = 2  (lextrain: dependencies in the HMM alignment model.  &1: sentence length; &2: previous class; &4: previous position;  &8: French position; &16: French class)
+emprobforempty = 0.4  (f-b-trn: probability for empty word)
+
+parameters modifying the EM-algorithm:
+--------------------------------------
+m5p0 = -1  (fixed value for parameter p_0 in IBM-5 (if negative then it is determined in training))
+manlexfactor1 = 0  ()
+manlexfactor2 = 0  ()
+manlexmaxmultiplicity = 20  ()
+maxfertility = 10  (maximal fertility for fertility models)
+p0 = 0.999  (fixed value for parameter p_0 in IBM-3/4 (if negative then it is determined in training))
+pegging = 0  (0: no pegging; 1: do pegging)
+
+reading vocabulary files 
+Reading more sentence pairs into memory ... 
+Model1: (1) TRAIN CROSS-ENTROPY 15.929 PERPLEXITY 62387.9
+Model1: (1) VITERBI TRAIN CROSS-ENTROPY 19.5392 PERPLEXITY 761890
+Model 1 Iteration: 1 took: 4 seconds
+-----------
+Model1: Iteration 2
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (2) TRAIN CROSS-ENTROPY 6.23891 PERPLEXITY 75.5263
+Model1: (2) VITERBI TRAIN CROSS-ENTROPY 8.10326 PERPLEXITY 274.995
+Model 1 Iteration: 2 took: 5 seconds
+-----------
+Model1: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (3) TRAIN CROSS-ENTROPY 5.66296 PERPLEXITY 50.6667
+Model1: (3) VITERBI TRAIN CROSS-ENTROPY 7.17869 PERPLEXITY 144.877
+Model 1 Iteration: 3 took: 5 seconds
+-----------
+Model1: Iteration 4
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (4) TRAIN CROSS-ENTROPY 5.42989 PERPLEXITY 43.1083
+Model1: (4) VITERBI TRAIN CROSS-ENTROPY 6.67949 PERPLEXITY 102.501
+Model 1 Iteration: 4 took: 6 seconds
+-----------
+Model1: Iteration 5
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (5) TRAIN CROSS-ENTROPY 5.33499 PERPLEXITY 40.3637
+Model1: (5) VITERBI TRAIN CROSS-ENTROPY 6.432 PERPLEXITY 86.3424
+Model 1 Iteration: 5 took: 5 seconds
+Entire Model1 Training took: 25 seconds
+NOTE: I am doing iterations with the HMM model!
+Read classes: #words: 206611  #classes: 51
+Read classes: #words: 49822  #classes: 51
+
+==========================================================
+Hmm Training Started at: Fri Aug  5 21:29:34 2016
+
+-----------
+Hmm: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 9669 parameters.
+Hmm: (1) TRAIN CROSS-ENTROPY 5.28998 PERPLEXITY 39.1241
+Hmm: (1) VITERBI TRAIN CROSS-ENTROPY 6.29858 PERPLEXITY 78.716
+
+Hmm Iteration: 1 took: 22 seconds
+
+-----------
+Hmm: Iteration 2
+Reading more sentence pairs into memory ... 
+Source vocabulary list has 49823 unique tokens 
+Target vocabulary list has 206612 unique tokens 
+Calculating vocabulary frequencies from corpus /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/corpus/ta-en-int-train.snt
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+ Train total # sentence pairs (weighted): 119816
+Size of source portion of the training corpus: 1.93454e+06 tokens
+Size of the target portion of the training corpus: 1.30227e+06 tokens 
+In source portion of the training corpus, only 49822 unique tokens appeared
+In target portion of the training corpus, only 206610 unique tokens appeared
+lambda for PP calculation in IBM-1,IBM-2,HMM:= 1.30227e+06/(2.05436e+06-119816)== 0.673167
+There are 10916791 10916791 entries in table
+==========================================================
+Model1 Training Started at: Fri Aug  5 21:29:14 2016
+
+-----------
+Model1: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (1) TRAIN CROSS-ENTROPY 18.1868 PERPLEXITY 298379
+Model1: (1) VITERBI TRAIN CROSS-ENTROPY 22.3525 PERPLEXITY 5.35524e+06
+Model 1 Iteration: 1 took: 10 seconds
+-----------
+Model1: Iteration 2
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (2) TRAIN CROSS-ENTROPY 9.36451 PERPLEXITY 659.173
+Model1: (2) VITERBI TRAIN CROSS-ENTROPY 10.5761 PERPLEXITY 1526.62
+Model 1 Iteration: 2 took: 9 seconds
+-----------
+Model1: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (3) TRAIN CROSS-ENTROPY 8.39681 PERPLEXITY 337.047
+Model1: (3) VITERBI TRAIN CROSS-ENTROPY 9.22996 PERPLEXITY 600.473
+Model 1 Iteration: 3 took: 9 seconds
+-----------
+Model1: Iteration 4
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (4) TRAIN CROSS-ENTROPY 8.07083 PERPLEXITY 268.882
+Model1: (4) VITERBI TRAIN CROSS-ENTROPY 8.71212 PERPLEXITY 419.383
+Model 1 Iteration: 4 took: 9 seconds
+-----------
+Model1: Iteration 5
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Model1: (5) TRAIN CROSS-ENTROPY 7.96585 PERPLEXITY 250.012
+Model1: (5) VITERBI TRAIN CROSS-ENTROPY 8.50709 PERPLEXITY 363.823
+Model 1 Iteration: 5 took: 9 seconds
+Entire Model1 Training took: 46 seconds
+NOTE: I am doing iterations with the HMM model!
+Read classes: #words: 49822  #classes: 51
+Read classes: #words: 206611  #classes: 51
+
+==========================================================
+Hmm Training Started at: Fri Aug  5 21:30:01 2016
+
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 9669 parameters.
+Hmm: (2) TRAIN CROSS-ENTROPY 5.18066 PERPLEXITY 36.2688
+Hmm: (2) VITERBI TRAIN CROSS-ENTROPY 5.76452 PERPLEXITY 54.3617
+
+Hmm Iteration: 2 took: 19 seconds
+
+-----------
+Hmm: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+-----------
+Hmm: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 12878 parameters.
+Hmm: (1) TRAIN CROSS-ENTROPY 7.92328 PERPLEXITY 242.742
+Hmm: (1) VITERBI TRAIN CROSS-ENTROPY 8.40548 PERPLEXITY 339.079
+
+Hmm Iteration: 1 took: 29 seconds
+
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 9669 parameters.
+Hmm: (3) TRAIN CROSS-ENTROPY 4.9854 PERPLEXITY 31.6778
+Hmm: (3) VITERBI TRAIN CROSS-ENTROPY 5.41031 PERPLEXITY 42.5272
+
+Hmm Iteration: 3 took: 18 seconds
+
+-----------
+Hmm: Iteration 4
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 9669 parameters.
+Hmm: (4) TRAIN CROSS-ENTROPY 4.83568 PERPLEXITY 28.5551
+Hmm: (4) VITERBI TRAIN CROSS-ENTROPY 5.17729 PERPLEXITY 36.1843
+
+Hmm Iteration: 4 took: 18 seconds
+
+-----------
+Hmm: Iteration 5
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+-----------
+Hmm: Iteration 2
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 12878 parameters.
+Hmm: (2) TRAIN CROSS-ENTROPY 7.43946 PERPLEXITY 173.58
+Hmm: (2) VITERBI TRAIN CROSS-ENTROPY 7.67998 PERPLEXITY 205.071
+
+Hmm Iteration: 2 took: 30 seconds
+
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 9669 parameters.
+Hmm: (5) TRAIN CROSS-ENTROPY 4.72469 PERPLEXITY 26.4407
+Hmm: (5) VITERBI TRAIN CROSS-ENTROPY 5.01423 PERPLEXITY 32.3173
+
+Hmm Iteration: 5 took: 18 seconds
+
+Entire Hmm Training took: 95 seconds
+==========================================================
+Read classes: #words: 206611  #classes: 51
+Read classes: #words: 49822  #classes: 51
+Read classes: #words: 206611  #classes: 51
+Read classes: #words: 49822  #classes: 51
+
+==========================================================
+Starting H333444:  Viterbi Training
+ H333444 Training Started at: Fri Aug  5 21:31:10 2016
+
+
+---------------------
+THTo3: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+-----------
+Hmm: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 12878 parameters.
+Hmm: (3) TRAIN CROSS-ENTROPY 7.09976 PERPLEXITY 137.164
+Hmm: (3) VITERBI TRAIN CROSS-ENTROPY 7.26811 PERPLEXITY 154.141
+
+Hmm Iteration: 3 took: 29 seconds
+
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 309.527 #alsophisticatedcountcollection: 0 #hcsteps: 0
+#peggingImprovements: 0
+A/D table contains 9669 parameters.
+A/D table contains 12307 parameters.
+p0_count is 1.4133e+06 and p1 is 260514; p0 is 0.999 p1: 0.001
+THTo3: TRAIN CROSS-ENTROPY 4.53554 PERPLEXITY 23.1917
+THTo3: (1) TRAIN VITERBI CROSS-ENTROPY 4.69458 PERPLEXITY 25.8946
+
+THTo3 Viterbi Iteration : 1 took: 20 seconds
+
+---------------------
+Model3: Iteration 2
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 310.122 #alsophisticatedcountcollection: 0 #hcsteps: 3.18048
+#peggingImprovements: 0
+A/D table contains 9669 parameters.
+A/D table contains 12307 parameters.
+p0_count is 1.73318e+06 and p1 is 100577; p0 is 0.999 p1: 0.001
+Model3: TRAIN CROSS-ENTROPY 6.19769 PERPLEXITY 73.3991
+Model3: (2) TRAIN VITERBI CROSS-ENTROPY 6.32429 PERPLEXITY 80.1309
+
+Model3 Viterbi Iteration : 2 took: 16 seconds
+
+---------------------
+Model3: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+-----------
+Hmm: Iteration 4
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 12878 parameters.
+Hmm: (4) TRAIN CROSS-ENTROPY 6.90717 PERPLEXITY 120.023
+Hmm: (4) VITERBI TRAIN CROSS-ENTROPY 7.04044 PERPLEXITY 131.639
+
+Hmm Iteration: 4 took: 28 seconds
+
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 309.878 #alsophisticatedcountcollection: 0 #hcsteps: 3.26209
+#peggingImprovements: 0
+A/D table contains 9669 parameters.
+A/D table contains 12339 parameters.
+p0_count is 1.81517e+06 and p1 is 59583.4; p0 is 0.999 p1: 0.001
+Model3: TRAIN CROSS-ENTROPY 5.96702 PERPLEXITY 62.5534
+Model3: (3) TRAIN VITERBI CROSS-ENTROPY 6.0713 PERPLEXITY 67.2423
+
+Model3 Viterbi Iteration : 3 took: 17 seconds
+
+---------------------
+T3To4: Iteration 4
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 309.747 #alsophisticatedcountcollection: 37.4346 #hcsteps: 3.29715
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 9669 parameters.
+A/D table contains 12339 parameters.
+p0_count is 1.83964e+06 and p1 is 47349.1; p0 is 0.999 p1: 0.001
+T3To4: TRAIN CROSS-ENTROPY 5.9074 PERPLEXITY 60.0212
+T3To4: (4) TRAIN VITERBI CROSS-ENTROPY 6.0029 PERPLEXITY 64.1289
+
+T3To4 Viterbi Iteration : 4 took: 22 seconds
+
+---------------------
+Model4: Iteration 5
+Reading more sentence pairs into memory ... 
+-----------
+Hmm: Iteration 5
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+A/D table contains 12878 parameters.
+Hmm: (5) TRAIN CROSS-ENTROPY 6.79159 PERPLEXITY 110.783
+Hmm: (5) VITERBI TRAIN CROSS-ENTROPY 6.90387 PERPLEXITY 119.749
+
+Hmm Iteration: 5 took: 28 seconds
+
+Entire Hmm Training took: 144 seconds
+==========================================================
+Read classes: #words: 49822  #classes: 51
+Read classes: #words: 206611  #classes: 51
+Read classes: #words: 49822  #classes: 51
+Read classes: #words: 206611  #classes: 51
+
+==========================================================
+Starting H333444:  Viterbi Training
+ H333444 Training Started at: Fri Aug  5 21:32:27 2016
+
+
+---------------------
+THTo3: Iteration 1
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 237.911 #alsophisticatedcountcollection: 0 #hcsteps: 0
+#peggingImprovements: 0
+A/D table contains 12878 parameters.
+A/D table contains 9142 parameters.
+[sent:100000]
+p0_count is 1.21853e+06 and p1 is 41869.4; p0 is 0.999 p1: 0.001
+THTo3: TRAIN CROSS-ENTROPY 6.68 PERPLEXITY 102.537
+THTo3: (1) TRAIN VITERBI CROSS-ENTROPY 6.99339 PERPLEXITY 127.414
+
+THTo3 Viterbi Iteration : 1 took: 22 seconds
+
+---------------------
+Model3: Iteration 2
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 237.251 #alsophisticatedcountcollection: 0 #hcsteps: 1.69046
+#peggingImprovements: 0
+A/D table contains 12878 parameters.
+A/D table contains 9142 parameters.
+p0_count is 1.25816e+06 and p1 is 22057.8; p0 is 0.999 p1: 0.001
+Model3: TRAIN CROSS-ENTROPY 7.61816 PERPLEXITY 196.47
+Model3: (2) TRAIN VITERBI CROSS-ENTROPY 7.69728 PERPLEXITY 207.544
+
+Model3 Viterbi Iteration : 2 took: 24 seconds
+
+---------------------
+Model3: Iteration 3
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 309.832 #alsophisticatedcountcollection: 30.0722 #hcsteps: 2.98601
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 9669 parameters.
+A/D table contains 12608 parameters.
+p0_count is 1.82207e+06 and p1 is 56134.2; p0 is 0.999 p1: 0.001
+Model4: TRAIN CROSS-ENTROPY 5.74035 PERPLEXITY 53.4586
+Model4: (5) TRAIN VITERBI CROSS-ENTROPY 5.81298 PERPLEXITY 56.2187
+
+Model4 Viterbi Iteration : 5 took: 51 seconds
+
+---------------------
+Model4: Iteration 6
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 237.092 #alsophisticatedcountcollection: 0 #hcsteps: 1.65964
+#peggingImprovements: 0
+A/D table contains 12878 parameters.
+A/D table contains 9142 parameters.
+Reading more sentence pairs into memory ... 
+p0_count is 1.26582e+06 and p1 is 18228.3; p0 is 0.999 p1: 0.001
+Model3: TRAIN CROSS-ENTROPY 7.45916 PERPLEXITY 175.967
+Model3: (3) TRAIN VITERBI CROSS-ENTROPY 7.52373 PERPLEXITY 184.022
+
+Model3 Viterbi Iteration : 3 took: 24 seconds
+
+---------------------
+T3To4: Iteration 4
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 236.944 #alsophisticatedcountcollection: 16.7554 #hcsteps: 1.64742
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 12878 parameters.
+A/D table contains 9142 parameters.
+p0_count is 1.26917e+06 and p1 is 16551; p0 is 0.999 p1: 0.001
+T3To4: TRAIN CROSS-ENTROPY 7.4038 PERPLEXITY 169.343
+T3To4: (4) TRAIN VITERBI CROSS-ENTROPY 7.46256 PERPLEXITY 176.382
+
+T3To4 Viterbi Iteration : 4 took: 26 seconds
+
+---------------------
+Model4: Iteration 5
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 309.743 #alsophisticatedcountcollection: 27.0887 #hcsteps: 2.94744
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 9669 parameters.
+A/D table contains 12608 parameters.
+p0_count is 1.82543e+06 and p1 is 54456.3; p0 is 0.999 p1: 0.001
+Model4: TRAIN CROSS-ENTROPY 5.6272 PERPLEXITY 49.4262
+Model4: (6) TRAIN VITERBI CROSS-ENTROPY 5.69325 PERPLEXITY 51.7415
+
+Model4 Viterbi Iteration : 6 took: 52 seconds
+H333444 Training Finished at: Fri Aug  5 21:34:08 2016
+
+
+Entire Viterbi H333444 Training took: 178 seconds
+==========================================================
+
+Entire Training took: 303 seconds
+Program Finished at: Fri Aug  5 21:34:08 2016
+
+==========================================================
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 236.759 #alsophisticatedcountcollection: 13.1955 #hcsteps: 1.50655
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 12878 parameters.
+A/D table contains 9199 parameters.
+p0_count is 1.269e+06 and p1 is 16636.1; p0 is 0.999 p1: 0.001
+Model4: TRAIN CROSS-ENTROPY 7.19317 PERPLEXITY 146.339
+Model4: (5) TRAIN VITERBI CROSS-ENTROPY 7.23302 PERPLEXITY 150.438
+
+Model4 Viterbi Iteration : 5 took: 38 seconds
+
+---------------------
+Model4: Iteration 6
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+[sent:100000]
+Reading more sentence pairs into memory ... 
+Reading more sentence pairs into memory ... 
+#centers(pre/hillclimbed/real): 1 1 1  #al: 236.607 #alsophisticatedcountcollection: 11.7181 #hcsteps: 1.48297
+#peggingImprovements: 0
+D4 table contains 527800 parameters.
+A/D table contains 12878 parameters.
+A/D table contains 9199 parameters.
+p0_count is 1.27044e+06 and p1 is 15915.3; p0 is 0.999 p1: 0.001
+Model4: TRAIN CROSS-ENTROPY 7.1195 PERPLEXITY 139.054
+Model4: (6) TRAIN VITERBI CROSS-ENTROPY 7.15517 PERPLEXITY 142.535
+
+Model4 Viterbi Iteration : 6 took: 39 seconds
+H333444 Training Finished at: Fri Aug  5 21:35:20 2016
+
+
+Entire Viterbi H333444 Training took: 173 seconds
+==========================================================
+
+Entire Training took: 368 seconds
+Program Finished at: Fri Aug  5 21:35:20 2016
+
+==========================================================
+Waiting for second GIZA process...
+FILE: /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/Corpus/OUT.clean.tok.ta
+FILE: /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/Corpus/OUT.clean.tok.en
+FILE: /home/hans/Documents/MAC/SUCCESSFUL_MODELS/ADD/Moses/output_model/model/aligned.grow-diag-final-and
+MAX 7 1 0
+Started Fri Aug  5 21:35:52 2016
+total=119816 line-per-split=14978 

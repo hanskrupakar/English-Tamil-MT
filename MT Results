@@ -1,0 +1,349 @@
+3 LAYERS: 50k and 75k
+size: 325 and 108500 training steps
+
+
+
+STEP: 10000
+global step 10000 learning rate 0.5000 step-time 1.56 perplexity 33.47
+  eval: bucket 0 perplexity 10.47
+  eval: bucket 1 perplexity 14.57
+  eval: bucket 2 perplexity 20.74
+  eval: bucket 3 perplexity 35.82
+  eval: bucket 4 perplexity 42.77
+  eval: bucket 5 perplexity 55.39
+  eval: bucket 6 perplexity 50.01
+  eval: bucket 7 perplexity 68.91
+  eval: bucket 8 perplexity 34.06
+  eval: bucket 9 perplexity 40.85
+
+STEP: 56500
+global step 56500 learning rate 0.4901 step-time 1.13 perplexity 8.61
+  eval: bucket 0 perplexity 8.20
+  eval: bucket 1 perplexity 9.03
+  eval: bucket 2 perplexity 13.67
+  eval: bucket 3 perplexity 18.62
+  eval: bucket 4 perplexity 15.66
+  eval: bucket 5 perplexity 16.55
+  eval: bucket 6 perplexity 28.49
+  eval: bucket 7 perplexity 22.69
+  eval: bucket 8 perplexity 17.62
+  eval: bucket 9 perplexity 22.40
+
+
+STEP: 108500
+global step 108500 learning rate 0.4522 step-time 1.04 perplexity 3.79
+  eval: bucket 0 perplexity 20.10
+  eval: bucket 1 perplexity 18.52
+  eval: bucket 2 perplexity 17.32
+  eval: bucket 3 perplexity 28.79
+  eval: bucket 4 perplexity 18.48
+  eval: bucket 5 perplexity 17.07
+  eval: bucket 6 perplexity 15.35
+  eval: bucket 7 perplexity 29.22
+  eval: bucket 8 perplexity 26.05
+  eval: bucket 9 perplexity 28.58
+
+
+> Trisha is the heroine.  
+_UNK த்ரிஷா நடிக்கிறார் .
+
+
+.....................................
+
+
+
+
+> ONGC, has made an investment of $_NUMBER billion, which is expected to go up to $_NUMBER billion later this year.
+பில்லியன் டாலர்கள் கடன் _UNK பில்லியன் _UNK பில்லியன் _UNK . பில்லியன் டாலராக ஆயிற்று .
+
+
+.....................................
+
+
+
+
+> Meeting the press people, the group criticized the opposition severely.
+இந்தக் செய்தி ஊடக _UNK மக்கள் _UNK , _UNK எதிர்ப்பை தெரிவித்தது .
+
+
+.....................................
+
+
+
+> He came to his own, and his own received him not.
+அவர் _UNK , தங்களுடைய _UNK அவரைத் விரும்பவில்லை .
+
+
+.....................................
+
+
+> This is not my duty; I'm not carrying any official role or leading position.
+நான் _UNK , ஒரு _UNK _UNK , வேறு ஒரு _UNK , _UNK அல்ல .
+
+
+.....................................
+
+
+
+SOURCE: Confronting a worsening foreign exchange crisis, the Sri Lankan government is seeking a $US_NUMBER billion loan from the International Monetary Fund IMF to bail out the country.
+TARGET: ஒரு நிதிய நெருக்கடியில் இருந்து , இலங்கை அரசாங்கம் நாட்டை எதிர்கொண்டுள்ள கடன் கொடுக்கும் நிலைமையை ஒட்டி _UNK _UNK . பில்லியன் டாலர்கள் கடன் கொடுப்பதில் சர்வதேச நாணய நிதியம் கொடுத்துள்ளது .
+
+
+.....................................
+
+
+
+SOURCE: Following this, the Tamilnadu police have instructed theatre managements not to permit bags into theatres.
+TARGET: இதனால் தயாரிப்பாளர்கள் சங்க நிர்வாகிகள் _UNK _UNK டிக்கெட் _UNK .
+
+
+.....................................
+
+
+
+SOURCE: And whoever touches any thing that was under him shall be unclean until the even: and he that bears any of those things shall wash his clothes, and bathe himself in water, and be unclean until the even.
+TARGET: ஒருவன் ஒன்றையும் _UNK தன் வஸ்திரங்களைத் தோய்த்து , தன் வஸ்திரங்களைத் தோய்த்து , தன் வஸ்திரங்களைத் தோய்த்து , தண்ணீரில் முழுகி , பின்பு சுத்தமாயிருப்பான் . பின்பு , அவன் சுத்தமாயிருப்பான் .
+
+
+.....................................
+
+
+
+SOURCE: He had always encouraged Senthil to read.
+TARGET: இந்த _UNK செந்தில் _UNK _UNK .
+
+
+.....................................
+
+
+
+SOURCE: The bottom _NUMBER percent owns _NUMBER percent of non-home wealth.
+TARGET: சதவிகித . சதவிகித செல்வத்தை பெற்றுள்ளனர் .
+
+
+.....................................
+
+
+
+SOURCE: It seems shilpa shetty has been approached for the role.
+TARGET: நடிக்க வேண்டும் என்று _UNK விருப்பம் .
+
+
+.....................................
+
+
+
+SOURCE: DM: We are currently looking at offers from some other states and so we hope that there will be no more trouble, but I am determined to make this film.
+TARGET: : இன்னும் பல இடங்களில் இந்த முன்னேற்றம் இப்பொழுது நாம் இங்கே நடக்கும் ; எனவே இந்த பிரச்சினைகளை நாம் இங்கு _UNK என்று நம்பிக்கை உண்டு .
+
+
+.....................................
+
+
+
+SOURCE: Sonia Agarwal will step into the small screen by acting as Radhika in this serial.
+TARGET: பழைய _UNK குருவி படத்தில் _UNK ஜோடி _UNK .
+
+
+.....................................
+
+
+
+SOURCE: There is particular concern over the state of Europe's banking system.
+TARGET: _UNK பற்றி _UNK , ஐரோப்பாவில் _UNK பற்றி பொது அக்கறை கிடையாது .
+
+
+.....................................
+
+
+
+SOURCE: And David said to Abigail, Blessed be the LORD God of Israel, which sent you this day to meet me:
+TARGET: அப்படியே தாவீது தன் ஊழியக்காரரை நோக்கி : நீங்கள் இன்று ஐந்தாம் மாதம் _UNK ; அவன் தேவனாகிய கர்த்தருக்கு ஆலயத்தைக் _UNK ;
+
+
+.....................................
+
+
+
+SOURCE: A heart broken Negi resigned from the team.
+TARGET: _UNK _UNK _UNK .
+
+
+.....................................
+
+
+
+SOURCE: By design, such demands are impossible to fulfill since they require the proof of a negative.
+TARGET: அத்தகைய நடவடிக்கைகள் _UNK மூலம் , அவை எளிதில் _UNK _UNK .
+
+
+.....................................
+
+
+
+SOURCE: Which I'm sure you know Jim Rogal, Mr. President. He works for you on your staff.'
+TARGET: உங்களுக்கு _UNK . . . . . . . . .
+
+
+.....................................
+
+
+
+SOURCE: Bharatiraja's son has quit acting and turned assistant to his father.
+TARGET: _UNK நண்பர் என்ற கதாபாத்திரத்தில் _UNK கதாபாத்திரத்தில் நடிக்கிறார் .
+
+
+.....................................
+
+
+
+SOURCE: French capitalism needs another prop
+TARGET: பிரெஞ்சு முதலாளித்துவம் _UNK
+
+
+.....................................
+
+
+
+SOURCE: Hilary Clinton commented, 'We now find ourselves having to cope with yet another threatening challenge made worse by the failed policies of this president.'
+TARGET: _UNK ஜனாதிபதி _UNK மற்றொரு பேட்டியில் _UNK .
+
+
+.....................................
+
+
+
+SOURCE: 'In view of _NUMBER million unemployed persons, the question arises: Can the government at all afford...such a completely unnecessary visit, and all the measures associated with it?
+TARGET: _UNK _UNK மில்லியன் . மில்லியன் மக்களை நாங்கள் _UNK .
+
+
+4 LAYERS: 50k and 75k
+size: 325 and 27500 training steps
+
+STEP 0:
+global step 500 learning rate 0.5000 step-time 1.38 perplexity 731.72
+  eval: bucket 0 perplexity 195.60
+  eval: bucket 1 perplexity 171.73
+  eval: bucket 2 perplexity 249.35
+  eval: bucket 3 perplexity 223.83
+  eval: bucket 4 perplexity 303.57
+  eval: bucket 5 perplexity 322.14
+  eval: bucket 6 perplexity 382.54
+  eval: bucket 7 perplexity 396.87
+  eval: bucket 8 perplexity 448.65
+  eval: bucket 9 perplexity 437.61
+
+
+STEP 27500:
+global step 27500 learning rate 0.5000 step-time 3.11 perplexity 14.95
+  eval: bucket 0 perplexity 6.42
+  eval: bucket 1 perplexity 10.00
+  eval: bucket 2 perplexity 10.05
+  eval: bucket 3 perplexity 21.11
+  eval: bucket 4 perplexity 15.22
+  eval: bucket 5 perplexity 29.78
+  eval: bucket 6 perplexity 23.76
+  eval: bucket 7 perplexity 27.16
+  eval: bucket 8 perplexity 24.44
+  eval: bucket 9 perplexity 31.94
+
+SOURCE: The bottom _NUMBER percent owns _NUMBER percent of non-home wealth.
+TARGET: _UNK சதவிகிதம் சதவிகிதம் சதவிகிதம் சதவிகிதம் _UNK .
+
+
+.....................................
+
+
+SOURCE: And David said to Abigail, Blessed be the LORD God of Israel, which sent you this day to meet me:
+TARGET: தாவீது _UNK நோக்கி : நீ இஸ்ரவேல் மாதம் என்னிடத்தில் _UNK , நீ என்னிடத்தில் _UNK ,
+
+
+.....................................
+
+
+SOURCE: French capitalism needs another prop
+TARGET: அமெரிக்க ஏகாதிபத்தியத்தின் _UNK
+
+
+.....................................
+
+
+3 LAYERS: 4k and 4k
+size: 325 and 23500 training steps
+
+
+SOURCE: And David said to Abigail, Blessed be the LORD God of Israel, which sent you this day to meet me:
+TARGET: அப்பொழுது தாவீது _UNK நோக்கி : நீர் இஸ்ரவேலின் தேவனாகிய கர்த்தருக்கு _UNK _UNK _UNK _UNK _UNK _UNK என்றான் .
+
+
+
+SOURCE: Bharatiraja's son has quit acting and turned assistant to his father.
+TARGET: _UNK _UNK _UNK மகன் _UNK மகன் _UNK .
+
+
+
+SOURCE: French capitalism needs another prop
+TARGET: பிரெஞ்சு முதலாளித்துவ _UNK
+
+
+
+SOURCE: On Tuesday, the same newspaper produced a map of Europe akin to a weather map covered with economic clouds, storms and uncertainties.
+TARGET: அதே நேரத்தில் , _UNK பொருளாதார மற்றும் பொருளாதார _UNK _UNK _UNK _UNK _UNK _UNK _UNK .
+
+
+
+SOURCE: Hilary Clinton commented, 'We now find ourselves having to cope with yet another threatening challenge made worse by the failed policies of this president.'
+TARGET: _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK _UNK நாங்கள் _UNK _UNK _UNK .
+
+
+
+SOURCE: The media's right to investigate government actions and claims must be qualified by the fact that 'false accusations of fact impugning the integrity of others, including politicians, should not be made.'
+TARGET: அரசாங்க அதிகாரிகள் , _UNK மற்றும் _UNK _UNK _UNK _UNK _UNK , _UNK _UNK _UNK _UNK _UNK _UNK .
+
+
+PHRASE BASED SMT
+
+
+trisha is the heroine
+த்ரிஷா 
+
+................................................
+
+
+ongc has made an investment of 50 billion which is expected to go up to 100 billion later this year 
+இதனால் படத்தி்ற்கு முதலீடு ongc|UNK|UNK|UNK இன்னும் ஒரு பில்லியன் 50|UNK|UNK|UNK என நீ இது வரை இந்த ஆண்டு பில்லியன் 100|UNK|UNK|UNK
+
+
+................................................
+
+
+meeting the press people the group criticized the opposition severely 
+இந்த நிருபர்களை மக்கள் எதிர்ப்பு மிகக் கடுமையாக கண்டித்தார்
+
+
+................................................
+
+
+following this the tamilnadu police have instructed theatre managements not to permit bags into theatres
+இதனால் தமிழ்நாடு போலீசார் instructed|UNK|UNK|UNK bags|UNK|UNK|UNK தியேட்டர் managements|UNK|UNK|UNK புலிகளால் ஒரு படம் அல்ல 
+
+
+................................................
+
+
+
+
+dm we are currently looking at offers from some other states and so we hope that there will be no more trouble but i am determined to make this film
+தீபா மேத்தா தற்போது பார்க்கும்போது நாம் வேறு சில நாடுகள் அழைப்பு என நாம் நம்புகிறோம் என ஆபத்து இனி நான் வேண்டும் என்பதில் உறுதியாக இருக்கிறேன் 
+
+
+................................................
+
+
+
+
+and david said to abigail blessed be the lord god of israel which sent you this day to meet me
+போகப்பட்டார்கள் நோக்கி தாவீது இஸ்ரவேலின் தேவனாகிய கர்த்தர் உங்களுக்கு முன்னமே அனுப்பினார் என்று என்னை 
+
+
+

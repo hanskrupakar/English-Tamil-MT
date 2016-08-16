@@ -1,22 +1,3 @@
-# English-Tamil-MT
-English Tamil MT is part of a project carried out for ADD (Acoustic Dialect Decoder). It implements Moses based SMT and Neural MT in TensorFlow.
-
-The root dir contains:
-
-1. Tensorflow Basic - RNN GRU Embedding Attention Encoder Decoder Model 
-2. Tensorflow with English Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with word2vec embedding for the English sentences.
-3. Tensorflow with Eng and Tam Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with Word2Vec encoding for both English and Tamil Corpora. (Best Performance)
-4. Moses - Instructions and Results of using Moses SMT model.
-5. Keras - Basic RNN LSTM Encoder Decoder model from the original paper. (Cho et. al 2014)
-
-Instructions to use the models can be found in the dirs. 
-
-'Invoke command' is used to invoke the programs from terminal.
-
-To test the translation models from the most recent checkpoint, use the --decode flag with the 'Invoke Command'
-
-BEST RESULTS: [3 Layers, Model (3.)]
-
 Trisha is the heroine.  
 _UNK த்ரிஷா நடிக்கிறார் .
 
