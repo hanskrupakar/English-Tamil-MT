@@ -15,6 +15,8 @@ Instructions to use the models can be found in the dirs.
 
 To test the translation models from the most recent checkpoint, use the --decode flag with the 'Invoke Command'
 
+Thanks to TensorFlow's API and Tutorials: https://www.tensorflow.org/versions/r0.8/tutorials/index.html
+
 BEST RESULTS: [3 Layers, Model (3.)]
 
 Trisha is the heroine.  
