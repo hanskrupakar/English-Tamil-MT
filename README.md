@@ -1,6 +1,31 @@
 # English-Tamil-MT
 English Tamil MT is part of a project carried out for ADD (Acoustic Dialect Decoder). It implements Moses based SMT and Neural MT in TensorFlow.
 
+How to set-up:
+
+LINUX DEBIAN:
+
+Install pip (Python package manager):
+
+    sudo apt-get install python-pip
+
+Install TensorFlow r0.8 (backward compatibility problematic for some TensorFlow releases):
+
+  For GPU training (GPU and CUDA required):
+  For more help, refer NVIDIA website to install cuda.
+
+    sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.8.0-cp34-cp34m-linux_x86_64.whl
+
+  For CPU training:
+
+    sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp34-cp34m-linux_x86_64.whl
+
+Install the gensim module:
+
+    sudo -H pip install --upgrade gensim
+    
+Now cd to the respective models' root dir, whichever one you want to train. 
+
 The root dir contains:
 
 1. Tensorflow Basic - RNN GRU Embedding Attention Encoder Decoder Model 
@@ -17,7 +42,7 @@ To test the translation models from the most recent checkpoint, use the --decode
 
 Thanks to TensorFlow's API and Tutorials: https://www.tensorflow.org/versions/r0.8/tutorials/index.html
 
-BEST RESULTS: [3 Layers, Model (3.)]
+BEST RESULTS: [3 Layers, Model Number 3.]
 
 Trisha is the heroine.  
 _UNK த்ரிஷா நடிக்கிறார் .
