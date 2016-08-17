@@ -26,12 +26,12 @@ Install the gensim module:
     
 Now cd to the respective models' root dir, whichever one you want to train. 
 
-The root dir contains:
+This repo contains the following root dirs for various models as specified:
 
 1. Tensorflow Basic - RNN GRU Embedding Attention Encoder Decoder Model 
 2. Tensorflow with English Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with word2vec embedding for the English sentences.
 3. Tensorflow with Eng and Tam Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with Word2Vec encoding for both English and Tamil Corpora. (Best Performance)
-4. Moses - Instructions and Results of using Moses SMT model.
+4. Moses - Instructions and Results of using Moses Phrase-Based SMT model.
 5. Keras - Basic RNN LSTM Encoder Decoder model from the original paper. (Cho et. al 2014)
 
 Instructions to use the models can be found in the dirs. 
