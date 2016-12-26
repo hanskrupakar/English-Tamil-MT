@@ -1,1 +1,0 @@
-python -m src.translate --data_dir . --train_dir checkpoints/ --en_vocab_size=75000 --fr_vocab_size=80000 --size=340 --batch_size=32 --num_layers=4 --steps_per_checkpoint=500 
