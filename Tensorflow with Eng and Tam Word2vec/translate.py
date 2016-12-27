@@ -35,6 +35,7 @@ parser.add_argument("-ckpt_path","--ckpt_path",help="Path to checkpoint files di
 parser.add_argument("-steps_per_checkpoint","--steps_per_checkpoint",help="No. of steps per checkpoint", default=50)
 
 args = parser.parse_args()
+parser.print_help()
 
 def extract_vocab():
 
