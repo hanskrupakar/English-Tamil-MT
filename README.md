@@ -32,7 +32,11 @@ This repo contains the following root dirs for various models as specified:
 2. Tensorflow with English Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with word2vec embedding for the English sentences.
 3. Tensorflow with Eng and Tam Word2Vec - RNN LSTM Embedding Attention Encoder Decoder model with Word2Vec encoding for both English and Tamil Corpora. (Best Performance)
 4. Moses - Instructions and Results of using Moses Phrase-Based SMT model.
-5. Keras - Basic RNN LSTM Encoder Decoder model from the original paper. (Cho et. al 2014)
+
+
+I have re-implemented the same model implemented in the Tensorflow Tutorial for Seq2Seq API from [here](https://www.tensorflow.org/versions/master/tutorials/seq2seq/) for Model 3.
+
+I think that the stateful class-style programming is best suited to handle all the different variables involved through the training. Also, the functional style (like the one I've used) is cumbersome with a lot of arguments for every function. But I have written the code to speed up the preprocessing a little and familiarize myself with the API. 
 
 Instructions to use the models can be found in the dirs. 
 
