@@ -1,6 +1,6 @@
 I have re-implemented the same model implemented in the Tensorflow Tutorial for Seq2Seq API from [here](https://www.tensorflow.org/versions/master/tutorials/seq2seq/).
 
-I think that the stateful class-style programming is best suited to handle all the different variables involved through the training. Also, the functional style (like the one I've used) is cumbersome with a lot of arguments for every function. But I have written the code to speed up the preprocessing a little and familiarize myself with the API. 
+I think that the stateful class-style programming is best suited to handle all the different variables involved through the training. Also, the functional style (like the one I've used) is cumbersome with a lot of arguments for every function. But I have written the code to speed up the preprocessing a little and familiarize myself with the API. Here, I have used LSTM activated RNNs with a simple encoder and attention decoder.
 
 To perform the translation, first run:
     python preprocess.py <filename> <lang>

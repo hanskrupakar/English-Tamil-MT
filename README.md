@@ -34,19 +34,19 @@ This repo contains the following root dirs for various models as specified:
 4. Moses - Instructions and Results of using Moses Phrase-Based SMT model.
 
 
-I have re-implemented the same model implemented in the Tensorflow Tutorial for Seq2Seq API from [here](https://www.tensorflow.org/versions/master/tutorials/seq2seq/) for Model 3.
+I have re-implemented the same model implemented in the Tensorflow Tutorial for Seq2Seq API from [here](https://www.tensorflow.org/versions/master/tutorials/seq2seq/) for Models 1 and 3.
 
-I think that the stateful class-style programming is best suited to handle all the different variables involved through the training. Also, the functional style (like the one I've used) is cumbersome with a lot of arguments for every function. But I have written the code to speed up the preprocessing a little and familiarize myself with the API. 
+I think that the stateful class-style programming is best suited to handle all the different variables involved through the training. Also, the functional style (like the one I've used) is cumbersome with a lot of arguments for every function. But I have written this code to familiarize myself with the API. Here, I have used LSTM activated RNNs with a simple encoder and attention decoder.
 
-Instructions to use the models can be found in the dirs. 
+Instructions to use the models can be found in the respective directories.
 
-'Invoke command' is used to invoke the programs from terminal.
+To test the translation models from the most recent checkpoint, use the --test flag for decoding in models 1 and 3, and --decode in model 2.
 
-To test the translation models from the most recent checkpoint, use the --decode flag with the 'Invoke Command'
+NOTE: USE THE UNSUPERVISED MORPHOLOGICAL ANALYSER FIRST ON THE TAMIL CORPUS TO OBTAIN A REDUCTION IN VOCAB SIZE BY 8 TIMES AND A BIG IMPROVEMENT IN PERFORMANCE OF TRANSLATION.
 
 Thanks to TensorFlow's API and Tutorials: https://www.tensorflow.org/versions/r0.8/tutorials/index.html
 
-BEST RESULTS: [3 Layers, Model Number 3.]
+SAMPLE RESULTS: [3 Layers, Model Number 3.]
 
 Trisha is the heroine.  
 _UNK த்ரிஷா நடிக்கிறார் .
