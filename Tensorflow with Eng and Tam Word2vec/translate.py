@@ -14,7 +14,7 @@ import random
 ENCODER_EMBEDDING_KEY = "embedding_attention_seq2seq/RNN/EmbeddingWrapper/embedding"
 DECODER_EMBEDDING_KEY = "embedding_attention_seq2seq/embedding_attention_decoder/embedding"
 
-parser = argparse.ArgumentParser(description='Help Section')
+parser = argparse.ArgumentParser(description='English - Tamil Neural MT System')
 parser.add_argument("-en_size", "--en_size", help="Max Size (No. of words) of the English Vocabulary", default=50000)
 parser.add_argument("-ta_size", "--ta_size", help="Max Size (No. of words) of the Tamil Vocabulary", default=50000)
 parser.add_argument("-en_path", "--en_path", help="Location of English part of Bilingual Sentences", default='dataset/src-train.txt')
